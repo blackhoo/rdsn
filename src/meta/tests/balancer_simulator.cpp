@@ -166,9 +166,4 @@ void greedy_balancer_perfect_move_primary()
     }
 }
 
-int main(int, char **)
-{
-    dsn_run_config("config.ini", false);
-    greedy_balancer_perfect_move_primary();
-    return 0;
-}
+TEST(meta, state_sync) { greedy_balancer_perfect_move_primary(); }

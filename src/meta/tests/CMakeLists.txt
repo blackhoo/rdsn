@@ -14,7 +14,6 @@ set(MY_PROJ_SRC ${MY_PROJ_SRC})
 set(MY_SRC_SEARCH_MODE "GLOB")
 
 set(MY_PROJ_LIBS
-        dsn_meta_server
         dsn.replication.zookeeper_provider
         dsn_replication_common
         dsn.block_service
